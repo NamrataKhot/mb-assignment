@@ -9,6 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.library</groupId>
+
 	<artifactId>ManagerLogin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ManagerLogin</name>
@@ -90,6 +91,8 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+
+
 		</dependency>
 	</dependencies>
 

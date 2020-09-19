@@ -17,12 +17,10 @@ public class JwtUtil {
 	public String extractUsername(String token)
 	{
 		return extractClaim(token,Claims::getSubject);
-		
 	}
 
 	private String extractClaim(String token) {
-		return extractClaim(token, Claims::getSubject);
-			
+		return extractClaim(token, Claims::getSubject);	
 	}
 
 	public <T> T extractClaim(String token, Function<Claims, T> claimsResolver)
